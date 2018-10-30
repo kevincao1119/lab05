@@ -109,7 +109,7 @@ void totriggered(){
 
 void toalarmsounding(){
 	time_t timestar;
-	ifttt("https://maker.ifttt.com/trigger/alarm_triggered/with/key/dcZuaJf3oHEAyHhu-55bJE", "my1", "my 2", "my 33333");
+	ifttt("https://maker.ifttt.com/trigger/alarm_triggered/with/key/dhiJR-IZGw4iy-XaJAqJSfy8ArgkPMFFGVC94n0Wrl4", "my1", "my 2", "my 33333");
 	while(1){
     timestar = time(NULL);
     while(difftime(time(NULL), timestar) <= 2 && digitalRead(3) == 1){
